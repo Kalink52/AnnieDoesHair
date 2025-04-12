@@ -1,0 +1,16 @@
+{
+    "name": "anniedoeshair",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "cd anniedoeshair && dev --turbopack",
+        "build": "cd anniedoeshair && next build",
+        "start": "cd anniedoeshair && next start",
+        "lint": "cd anniedoeshair && next lint"
+    },
+    "devDependencies": {},
+    "main": "index.js",
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
