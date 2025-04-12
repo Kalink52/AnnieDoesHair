@@ -8,7 +8,7 @@ export function Hero() {
           Where beauty meets artistry. Haircuts, color, and styles tailored just for you.
         </p>
         <button className="px-6 py-3 bg-pink-500 text-white rounded-lg shadow-md hover:bg-pink-600 transition">
-          Book an Appointment
+          CALL NOW
         </button>
       </section>
     );
