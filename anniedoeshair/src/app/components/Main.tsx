@@ -1,8 +1,6 @@
 
 import Image from "next/image"
 
-const pages = ["Women","Men","About","Contact"]
-
 export function Main() {
 
     return (
@@ -38,7 +36,7 @@ export function Main() {
             {/* Text Content */}
             <div className="max-w-xl text-center lg:text-left space-y-6">
               <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 leading-tight">
-                Great Hair Doesn't Happen by Chance
+                Great Hair Doesn&apos;t Happen by Chance
               </h1>
     
               {/* Tagline */}
@@ -77,7 +75,7 @@ export function Main() {
           {/* Testimonial */}
           <div className="text-center py-12 text-gray-700">
             <p className="italic text-lg max-w-2xl mx-auto">
-              "The best salon experience I've ever had. My hair has never looked better!"
+              &quot:The best salon experience I&apos;ve ever had. My hair has never looked better!&quot;
             </p>
             <p className="mt-4 font-semibold">— A Happy Client</p>
           </div>
