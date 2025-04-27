@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -18,9 +18,20 @@
     --foreground: #ededed;
   }
 }
-
-body {
-  background: var(--background);
+*/
+/* body {
+  background: url("/background.png");
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}  */
+
+body {
+  background-color: #d6cccd;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 20px,
+    #ccc 20px,
+    #ccc 22px
+  );
 }

@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "dev": "cd anniedoeshair && dev --turbopack",
+        "dev": "cd anniedoeshair && npm run dev --turbopack",
         "build": "cd anniedoeshair && next build",
         "start": "cd anniedoeshair && next start",
         "lint": "cd anniedoeshair && next lint"
