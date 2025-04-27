@@ -8,9 +8,11 @@
         "start": "cd anniedoeshair && next start",
         "lint": "cd anniedoeshair && next lint"
     },
-    "devDependencies": {},
     "main": "index.js",
     "author": "",
     "license": "ISC",
-    "description": ""
+    "description": "",
+    "dependencies": {
+        "framer-motion": "^12.9.2"
+    }
 }

@@ -4,7 +4,7 @@ import Image from "next/image"
 export function Main() {
 
     return (
-        <div className="min-h-screen bg-gray-50 bg-[url('/pattern.svg')] bg-repeat">
+        <div className="min-h-screen bg-gray-50 bg-repeat">
           {/* Navbar */}
           <nav className="flex justify-end gap-10 px-8 py-6 bg-white shadow-md sticky top-0 z-50">
             {["Women", "Men", "About", "Contact"].map((item) => (
@@ -40,9 +40,6 @@ export function Main() {
               </h1>
     
               {/* Tagline */}
-              <p className="text-lg md:text-xl text-pink-600 font-medium">
-                Your Style. Your Confidence. Our Passion.
-              </p>
     
               <div className="w-16 border-t-4 border-pink-500 mx-auto lg:mx-0 my-4"></div>
     
@@ -75,7 +72,7 @@ export function Main() {
           {/* Testimonial */}
           <div className="text-center py-12 text-gray-700">
             <p className="italic text-lg max-w-2xl mx-auto">
-              &quot:The best salon experience I&apos;ve ever had. My hair has never looked better!&quot;
+              &quot;The best salon experience I&apos;ve ever had. My hair has never looked better!&quot;
             </p>
             <p className="mt-4 font-semibold">— A Happy Client</p>
           </div>
